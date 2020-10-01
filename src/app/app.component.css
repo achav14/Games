@@ -1,0 +1,8 @@
+.buttonTile{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.buttonTile:hover{
+    background-color: lightgrey;
+}
