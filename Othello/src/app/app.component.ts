@@ -28,10 +28,19 @@ export class AppComponent {
           ['8',' ',' ',' ',' ',' ',' ',' ',' ']];
 
 ngOnInit(){
+  this.banner()
 }
 
 constructor(private toastr:ToastrService){
 
+}
+  
+banner(){
+  banner = " +================================================+
+             |   /----\  ====+====  |      |  ==========  |       |
+             |   |    |      |      |______|  |           |       |
+             |   |    |      |      |      |  |======     |       |       
+             |   \____/      |      |      |  |______     |_____  |____"
 }
 
 addPlayerPiece(x,y){
